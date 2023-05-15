@@ -34,7 +34,7 @@ int main()
 	cout << *double_ptr << endl;
 
 	cout << "Some code for master branch 1 " << endl;
-
+	cout << "Some code for master branch 2 " << endl;
 
 	
 
