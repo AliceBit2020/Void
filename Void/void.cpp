@@ -33,7 +33,7 @@ int main()
 	double* double_ptr = static_cast<double*>(var);
 	cout << *double_ptr << endl;
 
-
+	cout << "Some code for master branch 1 " << endl;
 
 
 	
