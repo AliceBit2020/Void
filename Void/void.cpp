@@ -33,6 +33,10 @@ int main()
 	double* double_ptr = static_cast<double*>(var);
 	cout << *double_ptr << endl;
 
+	  /////work in branche Void1
+	cout << "Hello from branch Void1" << endl;
+	cout << "For second commit" << endl;
+
 	cout << "Some code for master branch 1 " << endl;
 	cout << "Some code for master branch 2 " << endl;
 
