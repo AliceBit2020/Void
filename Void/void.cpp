@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-	/////////Несколько стилей приедения типов
-	cout << static_cast<int>(5.5) << endl;///C++ стиль
-	cout << int(5.5) << endl;             ///C   стиль 
+	/////////ГЌГҐГ±ГЄГ®Г«ГјГЄГ® Г±ГІГЁГ«ГҐГ© ГЇГ°ГЁГҐГ¤ГҐГ­ГЁГї ГІГЁГЇГ®Гў
+	cout << static_cast<int>(5.5) << endl;///C++ Г±ГІГЁГ«Гј
+	cout << int(5.5) << endl;             ///C   Г±ГІГЁГ«Гј 
 
 
 
@@ -21,7 +21,7 @@ int main()
 
 	var = str;
 	cout << var << endl;////adres
-	//cout << *var << endl;////ошибка  *void перед разыменованием нужно привести к конкретному типу
+	//cout << *var << endl;////Г®ГёГЁГЎГЄГ   *void ГЇГҐГ°ГҐГ¤ Г°Г Г§Г»Г¬ГҐГ­Г®ГўГ Г­ГЁГҐГ¬ Г­ГіГ¦Г­Г® ГЇГ°ГЁГўГҐГ±ГІГЁ ГЄ ГЄГ®Г­ГЄГ°ГҐГІГ­Г®Г¬Гі ГІГЁГЇГі
 	char* void_str = static_cast<char*>(var);
 	cout << void_str << endl;
 
@@ -39,6 +39,7 @@ int main()
 
 	cout << "Some code for master branch 1 " << endl;
 	cout << "Some code for master branch 2 " << endl;
+	cout<<"Hello from Git"<<endl;
 
 	
 
